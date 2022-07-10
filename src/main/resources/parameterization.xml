@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameterization Test">
+    <test name="MultiplicationTest">
+        <classes>
+            <class name="MultiplicationTest">
+                <parameter name="a" value="3"/>
+                <parameter name="b" value="-1"/>
+                <methods>
+                    <include name="validMultiplicationWithNegativeNumber"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test" parallel="tests" thread-count="2" >
+    <test name="first Test">
+        <classes>
+            <class name="DivisionTest"/>
+            <class name="SubtractionTest"/>
+            <class name="ExponentiationTest"/>
+        </classes>
+    </test>
+    <test name="second Test">
+        <classes>
+            <class name="SquareRootTest"/>
+            <class name="SquareRootTest"/>
+            <class name="PercentageOfTheNumberTest"/>
+        </classes>
+    </test>
+</suite>
